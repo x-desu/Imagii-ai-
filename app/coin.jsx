@@ -11,16 +11,15 @@ import {
   Alert,
 } from "react-native";
 import React, { useEffect, useState } from "react";
-import { useStripe } from "@stripe/stripe-react-native";
+import { useStripe, StripeProvider } from "@stripe/stripe-react-native";
 import { useUser } from "@clerk/clerk-expo";
 import axios from "axios";
-import { StripeProvider } from "@stripe/stripe-react-native";
 
 const publishableKey = process.env.EXPO_PUBLIC_STRIPE_PUB_KEY;
 
 if (!publishableKey) {
   throw new Error(
-    "Missing Publishable Key. Please set EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY in your .env"
+    "Missing Publishable Key. Please set EXPO_PUBLIC_STRIPE_PUB_KEY in your .env"
   );
 }
 
