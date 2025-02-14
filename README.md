@@ -1,5 +1,5 @@
 # Ai image gen expo app using replicate prediction api 👋
-![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2d1djA2aHh0YXR2MXFjOWRkandtNDM4cWd0NXRyd2VqNHJkbndpbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zxgWeVnObFdnBLBmGJ/giphy.gif)
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDNkNHZ6ZGMyeGszcnFoN3NzYTA2Yjg0OXlpcTkwdnliMHZ1eHBpNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dt4i9Tt0vDiWyNsuDy/giphy.gif)
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
